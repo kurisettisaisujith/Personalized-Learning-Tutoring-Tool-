@@ -1,0 +1,183 @@
+.header_section1{
+    display : flex;
+  
+    justify-content: space-between; 
+    align-items: center; 
+    height: 8vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header_main{
+   
+}
+.App span{
+    font-size: larger;
+    font-weight: 500;
+}
+#logo_image{
+    width:"150px" ;
+    height:"80px"
+}
+#span1_header{
+   color:#101112;
+}
+#span1_header:hover{
+    text-decoration: overline;
+    
+ }
+
+.header_section1 input{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: whitesmoke;
+    width:500px;
+    height: 35px;
+    text-align:left;
+    font-weight: 700;
+}
+.header_login{
+    width:70px;
+    height: 35px;
+    background-color: #f7f9fa;
+    font-weight: bold;
+}
+.header_login:hover{
+ 
+    background-color:rgb(187, 186, 186);
+    border:3px solid black
+
+}
+.header_signUp:hover{
+ 
+ 
+    border:3px solid black
+
+}
+
+.header_signUp{
+    width:70px;
+    height: 35px;
+    background-color:#99d9e0;
+    font-weight: bold;
+   
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f7f9fa;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+   
+
+}
+
+
+.dropdown h4:hover{
+ 
+    color:#34d6e1;
+
+    }
+.dropmenu{
+    position: relative;
+    display: inline-block;
+}
+.dropmenu:hover .dropdown{
+    display: block;
+}
+.mobile_menu{
+    display: none;
+    background-color: #f7f9fa;
+
+}
+
+.three_lines{
+    display:none;
+  
+}
+.three_lines:hover{
+ 
+    border: 2px solid black;
+}
+.three_lines_class:hover{
+   
+   
+}
+.mobile_menu{
+    display: none;
+    position: absolute;
+    background-color: #f7f9fa;
+    min-width: 150px;
+    min-height: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    align-items: center;
+  
+    font-weight: 500;
+    margin-top: 10px;
+}
+.dropdown_mobile{
+    position: relative;
+    display: inline-block;
+}
+.dropdown_mobile:hover .mobile_menu{
+    display: block;
+}
+
+#span1_header_mobile{
+    color:#101112;
+    font-size:large;
+    
+   margin-top: 20px;
+
+   
+}
+
+.header_signUp1_h1{
+    border: 3px solid #34d6e1; /* Change the color and width as needed */
+    /* Set the inner border color and width */
+    outline: 2px solid #34d6e1; /* Change the color and width as needed */
+    /* Add a box shadow to create a gap between the borders */
+    box-shadow: 0 0 0 2px #000; /* Adjust the shadow size as needed */
+    /* Set the element's background color */
+ 
+    height: 35px;
+    margin:10px;
+    width:40px;
+ 
+    font-weight:500;
+    font-size: x-large;
+    border-radius: 100%;
+    color:#101112;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#span1_header_mobile:hover{
+    color:#34d6e1;
+    
+}
+
+@media (max-width: 767px) {
+    #span1_header{
+        display:none;
+    }
+    .header_section1 input{
+        display:none;
+    }
+    .three_lines{
+        display:block;
+    }
+
+}
+@media (min-width: 768px) and (max-width:834px) {
+        
+    .header_section1 input{
+        width:280px
+    }
+    #logo_image{
+        width:"90px" ;
+        height:"80px"
+    }
+ 
+}

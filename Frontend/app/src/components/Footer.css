@@ -1,0 +1,133 @@
+
+.footer1 {
+   
+    color:#000000;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+ 
+  }
+  
+  .footer1 .container13 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .footer1  .footer-content1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footer1 .footer-section1 {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .footer1 .footer-section1 img {
+    height: 80px;
+    width: auto;
+  }
+  
+  
+  .footer1 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer1 li {
+    margin: 10px 0;
+  }
+  
+  .footer1 a {
+    color:#000000;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .footer1 a:hover {
+    color: #34d6e1;;
+  }
+  
+  
+  .footer1 .login-button1{
+    margin-top: 20px;
+  }
+  
+  .footer1  button {
+    background-color: #34d6e1;;
+    color: #000000;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+  .footer1 .copyright1,
+  .privacy-terms1 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .footer1 .activate-windows1 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  
+  .footer1 .privacy-terms1 a {
+    color: #34d6e1;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .footer1 .privacy-terms1 a:hover {
+    color: #ffffff;
+  }
+  
+  .footer1 .footer-bottom1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .footer1 .copyright-privacy1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-left: 100px;;
+  }
+  .footer1 .copyright1,
+  .privacy-terms1 {
+    font-size: 14px;
+    margin-right: 100px;
+  }
+  
+  
+  .footer1 .privacy-terms1 a {
+    color: #34d6e1;;
+    text-decoration: none;
+    transition: color 0.2s;
+    margin-left: 10px;
+  }
+  
+  .footer1 .privacy-terms1 a:hover {
+    color: #ffffff;
+  }
+  .footer1 .vertical-line1 {
+    border-left: 1px solid #ccc; 
+    height: 40px; 
+    margin: 0 20px; 
+  }

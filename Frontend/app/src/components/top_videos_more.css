@@ -1,0 +1,104 @@
+#course-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 300px;
+    max-height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    margin: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+#top_more_vedios{
+
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+
+}
+  
+  #course-card  h2 {
+    font-size: 1.5rem;
+  
+    color: #333;
+  }
+  
+  #course-card span {
+   font-size:large;
+    
+
+   
+  }
+
+  #rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #course-card span {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  #rating span {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  #course-card input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  #submitrating {
+    
+    border: none;
+    border-radius: 5px;
+    width: 35%;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  
+  #rating  button {
+   
+    background-color:#34d6e1;
+      color:#101112;
+      font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    width: 110px;
+  }
+  #rating select{
+    width: 70px;
+    height:30px;
+    font-size: 10px;
+   
+  }
+
+  ul li{
+    list-style: none;
+  
+  }
+  ul{
+    display: flex;
+    
+  }
+  

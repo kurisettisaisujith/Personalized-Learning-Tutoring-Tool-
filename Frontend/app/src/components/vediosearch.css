@@ -1,0 +1,52 @@
+/* CSS for VideoSearch component */
+.video-search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .video-search-input {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px; /* Limit the input width on larger screens */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    height:20px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .video-search-button {
+    background-color: #0074d9;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  
+  }
+  
+  .video-search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .video-search-container {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+  
+    .video-search-input {
+      width: 100%;
+    }
+  
+    .video-search-button {
+      width: 100%;
+    }
+  }
+  

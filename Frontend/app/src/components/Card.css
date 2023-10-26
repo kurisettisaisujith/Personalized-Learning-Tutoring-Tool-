@@ -1,0 +1,32 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+  margin-top: 45px;
+    max-width: 250px;
+    height: 250px;
+    width:250px;
+   
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin: 8px 0;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    word-break: break-all;
+  }
+  .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+ 

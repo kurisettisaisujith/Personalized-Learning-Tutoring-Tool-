@@ -1,0 +1,139 @@
+:root {
+  --color-grey-primary: #f0f0f0;
+  --color-yellow-primary: goldenrod;   
+  --color-orange-primary: darkorange;
+  --color-green-primary: mediumseagreen;
+}
+
+.html{
+  margin-left: 20px;
+}
+
+
+.html #onclick_h1{
+  display: flex;
+  justify-content: space-between;
+}
+.html #onclick_h1 button{
+  background-color: rgb(52,214,225);
+  width: 100px;
+ height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.facultyList{
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+ 
+  margin-top: 1rem;
+
+}
+
+#on_span_p span{
+  font-size:large;
+  font-weight:bold;
+
+ color: black;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#on_span_p p{
+  font-size:large;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+   padding: 5px;
+   color: black;
+}
+.facultyCard{
+  position: relative;
+  border: 1px solid black;
+  margin: 1rem;
+  flex: 1 0 25rem;
+  max-width: 30rem;
+  max-height: 50rem;
+  transition: 0.2s;
+}
+
+.facultyCard:hover{
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+
+.image{
+  padding-top: 7rem;
+  background-color: rgb(52,214,225);
+ border-radius: 4px 4px 0px 0px;
+}
+.facultyImage{
+  margin-top: -75px;
+  max-width: 100%;
+  border-radius: 100px;
+  padding: 5px;
+  height: auto;
+  background-color: aliceblue;
+}
+
+.facultyCard__cart{
+  position: absolute;
+  right: 0;
+  margin: 1rem;
+  font-size: 2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.facultyCard__wishlist{
+  position: absolute;
+  right: 3rem;
+  margin: 1rem;
+  font-size: 2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.facultyCard__fastSelling {
+  position: absolute;
+  font-size: 2rem;
+  left: 0;
+  margin: 1rem;
+  fill: var(--color-orange-primary);
+}
+
+.facultyCard__content {
+  margin: 2rem;
+}
+
+.facultyName{
+  font-size: 30px;
+  font-weight: 600;
+}
+.description{
+  padding: 20px 40px;
+  font-size: 16px;
+}
+
+.displayStack__1,
+.displayStack__2{
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facultyPrice{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.facultySales,
+.facultyTime{
+  font-size: 1.1rem;
+}
+.profileVideos button{
+  font-size: 16px;
+  background-color: rgb(52,214,225);
+  
+  padding: 10px 30px 10px 30px;
+  
+}

@@ -1,0 +1,135 @@
+/* Additional CSS for the Staff Login Page */
+
+
+
+.container1 {
+    max-width: 300px;
+    margin-top: 20px;
+    margin: 0 auto;
+    padding:65px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(17, 17, 17, 0.1);
+    text-align: center;
+    
+}
+
+.container1 h2 {
+   font-weight: bold;
+    margin-top: 0;
+   
+
+}
+
+
+
+.container1 label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: bold;
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    text-align: left;
+}
+
+
+
+ .container1 input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.container1 input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007BFF;
+}
+
+ .container1 #button1 {
+    background-color:#99d9e0;
+      color:#101112;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.container1 #button1:hover {
+ 
+     border:2px solid black
+}
+
+.container1 input[type="button"] {
+    width:70px;
+    height: 35px;
+    background-color:#99d9e0;
+    
+}
+
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Add media queries for responsive design */
+
+@media (max-width: 768px) {
+    .container1 {
+        max-width: 90%;
+        margin-right: 10px;
+    }
+
+   .container1 input[type="text"],
+    input[type="password"] {
+        margin-bottom: 10px;
+       
+    }
+}
+.container1 input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease-in-out;
+}
+.container1 input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+    .container1 {
+        max-width: 90%;
+    }
+
+   .container1 input[type="text"],
+    input[type="password"] {
+        margin-bottom: 10px;
+    }
+}
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+

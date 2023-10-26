@@ -1,0 +1,15 @@
+.search-button {
+    background-color:#99d9e0;
+    color: black;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    height:42px;
+    font-weight: 700;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px ;
+   
+    border:2px solid black ;
+  }
+  

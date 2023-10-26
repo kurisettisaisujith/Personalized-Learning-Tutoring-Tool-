@@ -1,0 +1,41 @@
+.card-container {
+ 
+    align-items: start; 
+    margin-top: 10px;
+  }
+  
+  .card-container span {
+    font-size: 24px;
+    margin-bottom: 0px;
+    border:2px solid black;
+   
+    padding: 3px;
+    text-transform:uppercase;
+   font-size: larger;
+   font-weight: bold;
+   
+  }
+  .card-container span img{
+
+ 
+   padding-top: 10px;
+   
+
+    
+  }
+  
+  .card-container .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+   
+  }
+ 
+  .card-container .card-link {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer; 
+  margin-top: 10px;
+   
+  }
